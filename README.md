@@ -1,1 +1,1 @@
-# GlobalSolution
+Esqueleto
