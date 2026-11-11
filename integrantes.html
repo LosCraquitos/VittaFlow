@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Conheça a equipe por trás do VittaFlow.">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="icon" type="image/x-icon" href="img/icon.ico">
+    <link rel="stylesheet" href="./css/integrantes.css">
+    <link rel="icon" type="image/x-icon" href="assets/icons/logo.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <title>VittaFlow - Integrantes</title>
+    <title>Integrantes | VittaFlow</title>
 </head>
 
 <body>
@@ -20,7 +20,7 @@
             <span>Vitta<p>Flow</p></span>
         </div>
 
-        <button class="btn-menu" id="btn-menu" aria-label="Abrir menu">
+        <button class="btn-menu" id="btn-menu" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu-centro">
             <span></span>
             <span></span>
             <span></span>
@@ -28,6 +28,7 @@
 
         <nav class="menu-centro" id="menu-centro">
             <ul>
+                <li><a href="./index.html">Home</a></li>
                 <li><a href="./integrantes.html" class="ativo">Integrantes</a></li>
                 <li><a href="./sobre.html">Sobre</a></li>
                 <li><a href="./faq.html">FAQ</a></li>
@@ -38,12 +39,96 @@
         </nav>
 
         <div class="botoes-direita">
-            <a href="login.html"><button>Entrar</button></a>
+            <a href="vagas.html" class="btn">Entrar</a>
         </div>
     </header>
 
     <main>
-        
+        <!-- Título da página -->
+        <section class="topo-pagina">
+            <h1>Nossa equipe</h1>
+            <p>Conheça as pessoas por trás do VittaFlow.</p>
+        </section>
+
+        <!-- Cards dos integrantes -->
+        <section class="lista-integrantes" aria-label="Integrantes do grupo">
+
+            <article class="card-integrante">
+                <img class="foto" src="./assets/img/gustavo.png" alt="Foto de Gustavo Almeida" width="140" height="140" loading="lazy">
+                <h2>Gustavo Almeida</h2>
+                <p class="rm">RM: 576039</p>
+                <p class="funcao">Função no projeto</p>
+                <div class="redes">
+                    <a href="https://github.com/goliveiraalmeida" target="_blank" rel="noopener noreferrer" aria-label="GitHub de Gustavo Almeida">
+                        <img class="icone-rede" src="./assets/icons/github.svg" alt="" width="28" height="28">
+                    </a>
+                    <a href="https://www.linkedin.com/in/goliveiraalmeida" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn de Gustavo Almeida">
+                        <img class="icone-rede" src="./assets/icons/linkedin.svg" alt="" width="28" height="28">
+                    </a>
+                </div>
+            </article>
+
+            <article class="card-integrante">
+                <img class="foto" src="./assets/img/jonatas.png" alt="Foto de Jonatas Ferreira" width="140" height="140" loading="lazy">
+                <h2>Jonatas Ferreira</h2>
+                <p class="rm">RM: 576943</p>
+                <p class="funcao">Função no projeto</p>
+                <div class="redes">
+                    <a href="https://github.com/jonatazf" target="_blank" rel="noopener noreferrer" aria-label="GitHub de Jonatas Ferreira">
+                        <img class="icone-rede" src="./assets/icons/github.svg" alt="" width="28" height="28">
+                    </a>
+                    <a href="https://www.linkedin.com/in/jonatazf/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn de Jonatas Ferreira">
+                        <img class="icone-rede" src="./assets/icons/linkedin.svg" alt="" width="28" height="28">
+                    </a>
+                </div>
+            </article>
+
+            <article class="card-integrante">
+                <img class="foto" src="./assets/img/lucca.png" alt="Foto de Lucca Floriano" width="140" height="140" loading="lazy">
+                <h2>Lucca Floriano</h2>
+                <p class="rm">RM: 575494</p>
+                <p class="funcao">Função no projeto</p>
+                <div class="redes">
+                    <a href="https://github.com/luccafloriano-7" target="_blank" rel="noopener noreferrer" aria-label="GitHub de Lucca Floriano">
+                        <img class="icone-rede" src="./assets/icons/github.svg" alt="" width="28" height="28">
+                    </a>
+                    <a href="https://www.linkedin.com/in/lucca-floriano" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn de Lucca Floriano">
+                        <img class="icone-rede" src="./assets/icons/linkedin.svg" alt="" width="28" height="28">
+                    </a>
+                </div>
+            </article>
+
+            <article class="card-integrante">
+                <img class="foto" src="./assets/img/luiz.png" alt="Foto de Luiz Azevedo" width="140" height="140" loading="lazy">
+                <h2>Luiz Azevedo</h2>
+                <p class="rm">RM: 575245</p>
+                <p class="funcao">Função no projeto</p>
+                <div class="redes">
+                    <a href="https://github.com/lazevedo2000-sudo" target="_blank" rel="noopener noreferrer" aria-label="GitHub de Luiz Azevedo">
+                        <img class="icone-rede" src="./assets/icons/github.svg" alt="" width="28" height="28">
+                    </a>
+                    <a href="https://www.linkedin.com/in/luiz-azevedo-890446235" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn de Luiz Azevedo">
+                        <img class="icone-rede" src="./assets/icons/linkedin.svg" alt="" width="28" height="28">
+                    </a>
+                </div>
+            </article>
+
+            <article class="card-integrante">
+                <img class="foto" src="./assets/img/ryan.png" alt="Foto de Ryan Prandi" width="140" height="140" loading="lazy">
+                <h2>Ryan Prandi</h2>
+                <p class="rm">RM: 576358</p>
+                <p class="funcao">Função no projeto</p>
+                <div class="redes">
+                    <a href="https://github.com/prandiryan" target="_blank" rel="noopener noreferrer" aria-label="GitHub de Ryan Prandi">
+                        <img class="icone-rede" src="./assets/icons/github.svg" alt="" width="28" height="28">
+                    </a>
+                    <a href="https://www.linkedin.com/in/ryan-prandi" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn de Ryan Prandi">
+                        <img class="icone-rede" src="./assets/icons/linkedin.svg" alt="" width="28" height="28">
+                    </a>
+                </div>
+            </article>
+
+        </section>
     </main>
 
     <footer>

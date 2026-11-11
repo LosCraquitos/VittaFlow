@@ -1,0 +1,91 @@
+
+.topo-pagina {
+  text-align: center;
+  padding: 50px 24px 20px;
+}
+
+.topo-pagina h1 {
+  font-size: 36px;
+  font-weight: 800;
+  color: var(--azul-saude);
+  margin-bottom: 10px;
+}
+
+.topo-pagina p {
+  font-size: 18px;
+  color: var(--texto-suave);
+}
+
+.lista-integrantes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 30px 56px 60px;
+}
+
+.card-integrante {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  padding: 24px;
+  text-align: center;
+  background-color: var(--branco);
+  border: 1px solid var(--borda);
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card-integrante:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 18px rgba(11, 45, 107, 0.15);
+}
+
+.card-integrante .foto {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid var(--azul-tech);
+  background-color: var(--cinza-claro);
+  margin-bottom: 16px;
+}
+
+.card-integrante h2 {
+  font-size: 18px;
+  font-weight: 800;
+  color: var(--azul-saude);
+  margin-bottom: 6px;
+}
+
+.card-integrante .rm {
+  font-size: 14px;
+  color: var(--texto-suave);
+}
+
+.card-integrante .funcao {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--azul-tech);
+  margin: 8px 0 14px;
+}
+
+.redes {
+  display: flex;
+  gap: 16px;
+}
+
+.redes a {
+  display: inline-flex;
+  border-radius: 6px;
+}
+
+.icone-rede {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+  transition: transform 0.3s;
+}
+
