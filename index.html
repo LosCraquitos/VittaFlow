@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="VittaFlow: agende consultas, exames e vacinas na rede pública, entre na fila de espera e receba lembretes.">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" type="image/x-icon" href="assets/icons/logo.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>VittaFlow | Home</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="./assets/icons/logo.png" alt="Logo VittaFlow" class="logoImg"></a>
+            <span>Vitta<p>Flow</p></span>
+        </div>
+
+        <button class="btn-menu" id="btn-menu" aria-label="Abrir menu" aria-expanded="false"
+            aria-controls="menu-centro">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav class="menu-centro" id="menu-centro">
+            <ul>
+                <li><a href="./index.html" class="ativo">Home</a></li>
+                <li><a href="./integrantes.html">Integrantes</a></li>
+                <li><a href="./sobre.html">Sobre</a></li>
+                <li><a href="./faq.html">FAQ</a></li>
+                <li><a href="./contato.html">Contato</a></li>
+                <li><a href="./vagas.html">Vagas</a></li>
+                <li><a href="./vacinas.html">Vacinas</a></li>
+            </ul>
+        </nav>
+
+        <div class="botoes-direita">
+            <a href="vagas.html" class="btn">Entrar</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Seção principal -->
+        <section class="container1">
+            <div class="texto">
+                <h1>Agende, acompanhe e cuide da sua saúde com o <span class="destaque">VittaFlow.</span></h1>
+                <h3>Consultas, exames, vacinas e muito mais, de forma simples e rápida.</h3>
+                <div class="grupo-botoes">
+                    <a href="vagas.html" class="btn btn-comecar">Começar agora <i
+                            class="fa-solid fa-arrow-right"></i></a>
+                    <a href="vacinas.html" class="btn btn-secundario">Ver calendário de vacinas</a>
+                </div>
+            </div>
+
+            <div class="ilustracao">
+                <img src="./assets/icons/calendarMedico.png" alt="Calendário com escudo de saúde e estetoscópio"
+                    class="img-hero">
+            </div>
+        </section>
+
+        <!-- Funcionalidades -->
+        <section class="funcionalidades" aria-label="Funcionalidades">
+            <div class="item-func">
+                <img src="./assets/icons/calendar-event.svg" alt="Ícone de calendário">
+                <p>Agende consultas</p>
+            </div>
+
+            <div class="item-func">
+                <img src="./assets/icons/heart-pulse-fill.svg" alt="Ícone de exames">
+                <p>Realize exames</p>
+            </div>
+
+            <div class="item-func">
+                <img src="./assets/icons/vacina.png" alt="Ícone de vacina">
+                <p>Mantenha suas vacinas em dia</p>
+            </div>
+
+            <div class="item-func">
+                <img src="./assets/icons/people-fill.svg" alt="Ícone de fila de espera">
+                <p>Entre na fila de espera</p>
+            </div>
+
+            <div class="item-func">
+                <img src="./assets/icons/bell-fill.svg" alt="Ícone de sino">
+                <p>Receba lembretes</p>
+            </div>
+        </section>
+
+        <!-- Problema e solução -->
+        <section class="secao secao-problema">
+            <div class="secao-cabecalho">
+                <h2>Por que o VittaFlow existe</h2>
+                <p>Na rede pública, as filas são longas enquanto vagas ficam ociosas por faltas e cancelamentos. E muita
+                    gente atrasa a vacina simplesmente porque ninguém avisou.</p>
+            </div>
+
+            <div class="cards">
+                <article class="card reveal">
+                    <i class="fa-solid fa-bell"></i>
+                    <h3>Avisa antes</h3>
+                    <p>Lembretes de consultas, exames e vacinas pendentes, direto no seu celular.</p>
+                </article>
+                <article class="card reveal">
+                    <i class="fa-solid fa-calendar-check"></i>
+                    <h3>Agenda pela vaga mais próxima</h3>
+                    <p>Escolha a unidade de saúde e o turno e marque sem enfrentar fila.</p>
+                </article>
+                <article class="card reveal">
+                    <i class="fa-solid fa-recycle"></i>
+                    <h3>Reaproveita a vaga</h3>
+                    <p>Cancelou? A vaga passa para quem está na fila de espera, e ninguém perde a chance.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Como funciona -->
+        <section class="secao secao-passos">
+            <div class="secao-cabecalho">
+                <h2>Como funciona</h2>
+                <p>Em três passos, pelo site ou pelo assistente no Telegram.</p>
+            </div>
+
+            <ol class="passos">
+                <li class="passo reveal">
+                    <span class="numero">1</span>
+                    <h3>Escolha o atendimento</h3>
+                    <p>Consulta, exame ou vacina, na unidade e no turno que preferir.</p>
+                </li>
+                <li class="passo reveal">
+                    <span class="numero">2</span>
+                    <h3>Agende ou entre na fila</h3>
+                    <p>Sem vaga disponível? Entre na fila de espera e seja avisado quando abrir uma.</p>
+                </li>
+                <li class="passo reveal">
+                    <span class="numero">3</span>
+                    <h3>Receba o lembrete</h3>
+                    <p>Acompanhe seus agendamentos e a caderneta de vacinas, sempre atualizada.</p>
+                </li>
+            </ol>
+        </section>
+
+        <!-- Acessibilidade e público -->
+        <section class="secao secao-publico">
+            <div class="publico">
+                <div class="publico-texto">
+                    <h2>Saúde para todos</h2>
+                    <p>O VittaFlow é pensado para quem usa a UBS, com atenção especial a idosos, gestantes e pessoas com
+                        deficiência. Quem não lê bem ou não usa aplicativo pode conversar com o assistente por áudio no
+                        Telegram.</p>
+                </div>
+                <div class="publico-selos">
+                    <div class="selo"><i class="fa-solid fa-person-cane"></i><span>Idosos</span></div>
+                    <div class="selo"><i class="fa-solid fa-person-pregnant"></i><span>Gestantes</span></div>
+                    <div class="selo"><i class="fa-solid fa-wheelchair"></i><span>PcD</span></div>
+                    <div class="selo"><i class="fa-brands fa-telegram"></i><span>Áudio no Telegram</span></div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Chamada final -->
+        <section class="secao secao-cta">
+            <h2>Pronto para cuidar da sua saúde?</h2>
+            <p>Veja as vagas disponíveis ou confira se sua caderneta de vacinas está em dia.</p>
+            <div class="grupo-botoes grupo-centro">
+                <a href="vagas.html" class="btn btn-comecar">Buscar vagas <i
+                        class="fa-solid fa-magnifying-glass"></i></a>
+                <a href="vacinas.html" class="btn btn-claro">Calendário de vacinas</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 VittaFlow | FIAP</p>
+    </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

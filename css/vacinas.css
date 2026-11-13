@@ -1,0 +1,130 @@
+/* Calendário de vacinação*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --azul-saude: #0B2D6B;
+  --azul-tech: #1E90FF;
+  --azul-hover: #1479dc;
+  --verde-vida: #22C55E;
+  --card: #FBEBC8;
+  --cinza-claro: #F5F9FF;
+  --branco: #ffffff;
+  --texto: #1b2a4a;
+  --texto-suave: #55627f;
+  --borda: #dbe6f6;
+}
+
+body {
+  background-color: #dbe6f6;
+}
+
+.cal-secao {
+  background-color: #d0dbec;
+  border-radius: 24px;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 56px 24px;
+  color: var(--texto);
+}
+
+.cal-secao h2 {
+  font-size: 1.7rem;
+  color: var(--azul-saude);
+  margin: 0 0 6px;
+}
+
+.cal-sub {
+  color: var(--texto-suave);
+  margin: 0 0 28px;
+}
+
+/* Abas */
+.cal-tabs {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin: 0 0 18px;
+}
+
+.cal-tabs button {
+  padding: 10px 18px;
+  border-radius: 999px;
+  border: 1px solid var(--borda);
+  background: var(--branco);
+  color: var(--azul-saude);
+  font-weight: 700;
+  font-size: .92rem;
+  cursor: pointer;
+  box-shadow: none;
+}
+
+.cal-tabs button:hover {
+  border-color: var(--azul-tech);
+  background: var(--cinza-claro);
+}
+
+.cal-tabs button.on {
+  background: var(--azul-tech);
+  border-color: var(--azul-tech);
+  color: var(--branco);
+}
+
+.cal-tabs button.on:hover {
+  background: var(--azul-hover);
+  border-color: var(--azul-hover);
+}
+
+.cal-tabs button:focus-visible {
+  outline: 3px solid var(--azul-tech);
+  outline-offset: 2px;
+}
+
+/* Lista (em coluna)*/
+.cal-lista {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  border: 1px solid var(--borda);
+  border-radius: 16px;
+  background: var(--branco);
+  overflow: hidden;
+}
+
+.cal-lista li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0;
+  padding: 10px 16px;
+  font-size: .95rem;
+  border-bottom: 1px solid var(--borda);
+}
+
+.cal-lista li:last-child { border-bottom: 0; }
+
+/* Título de cada idade/fase */
+.cal-lista li.cal-grupo {
+  background: var(--borda);
+  color: var(--azul-saude);
+  font-weight: 800;
+  border-left: 4px solid var(--verde-vida);
+}
+
+.cal-dose { color: var(--texto-suave); }
+
+.cal-nota {
+  font-size: .85rem;
+  color: var(--texto-suave);
+  margin: 16px 0 0;
+}
