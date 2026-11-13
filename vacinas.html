@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Conheça a equipe por trás do VittaFlow.">
+    <link rel="stylesheet" href="./css/vacinas.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/integrantes.css">
     <link rel="icon" type="image/x-icon" href="assets/icons/logo.ico">
@@ -44,12 +45,34 @@
     </header>
 
     <main>
+        <!--Calendario-->
+        <section class="cal-secao" id="calendario">
+        <h2>Calendário de vacinação</h2>
+        <p class="cal-sub">Vacinas do Calendário Nacional oferecidas pelo SUS, por fase da vida.</p>
+
+        <!-- Os botões das abas são criados pelo calendario.js -->
+        <div class="cal-tabs" id="tabs"></div>
+
+        <!-- Os itens da lista são criados pelo calendario.js -->
+        <ul class="cal-lista" id="cal"></ul>
+
+        <p class="cal-nota" id="calnote"></p>
+        <p class="cal-nota">
+        Baseado no Calendário Nacional de Vacinação 2026 (Ministério da Saúde/PNI), atualizado periodicamente.
+        Leve sua caderneta a uma UBS para confirmar quais doses estão pendentes.
+        </p>
+        </section>
+
+        <!--Agenda Campanhas-->
+        <section>
+            <h2>Datas das campanhas em 2026</h2>
+        </section>
     </main>
 
     <footer>
         <p>© 2026 VittaFlow | FIAP</p>
     </footer>
-
+    <script src="./js/vacinas.js"></script>
     <script src="./js/script.js"></script>
 </body>
 
