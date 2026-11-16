@@ -1,0 +1,80 @@
+/* Formulário de contato */
+.secao-contato {
+  display: flex;
+  justify-content: center;
+  padding: 56px 24px;
+  background-color: var(--cinza-claro);
+}
+
+.form-contato {
+  width: 100%;
+  max-width: 640px;
+  background-color: var(--branco);
+  border: 1px solid var(--borda);
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(11, 45, 107, 0.08);
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form-contato h2 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+.form-contato p {
+  text-align: center;
+  color: var(--texto-suave);
+  margin-bottom: 8px;
+}
+
+.form-contato label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--texto);
+}
+
+.form-contato input,
+.form-contato textarea {
+  width: 100%;
+  padding: 12px 14px;
+  border: 2px solid var(--borda);
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: 15px;
+  color: var(--texto);
+  background-color: var(--branco);
+}
+
+.form-contato input {
+  height: 44px;
+}
+
+.form-contato textarea {
+  min-height: 140px;
+  resize: vertical;
+}
+
+.form-contato input:focus,
+.form-contato textarea:focus {
+  outline: none;
+  border-color: var(--azul-saude);
+  box-shadow: none;
+}
+
+.form-contato .btn {
+  width: 100%;
+  margin-top: 8px;
+}
+
+@media (max-width: 768px) {
+  .form-contato {
+    padding: 24px 20px;
+  }
+}
