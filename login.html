@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Entre ou crie sua conta no VittaFlow para agendar consultas, exames e vacinas.">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="icon" type="image/x-icon" href="assets/icons/logo.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Entrar | VittaFlow</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="./assets/icons/logo.png" alt="Logo VittaFlow" class="logoImg"></a>
+            <span>Vitta<p>Flow</p></span>
+        </div>
+
+        <button class="btn-menu" id="btn-menu" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu-centro">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav class="menu-centro" id="menu-centro">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./integrantes.html">Integrantes</a></li>
+                <li><a href="./sobre.html">Sobre</a></li>
+                <li><a href="./faq.html">FAQ</a></li>
+                <li><a href="./contato.html">Contato</a></li>
+                <li><a href="./vagas.html">Vagas</a></li>
+                <li><a href="./vacinas.html">Vacinas</a></li>
+            </ul>
+        </nav>
+
+        <div class="botoes-direita">
+            <a href="login.html" class="btn">Entrar</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="secao-auth">
+            <div class="auth-card">
+                <div class="auth-tabs" role="tablist" aria-label="Acesso à conta">
+                    <button type="button" class="auth-tab ativo" id="tab-login" role="tab" aria-selected="true" aria-controls="form-login">Entrar</button>
+                    <button type="button" class="auth-tab" id="tab-cadastro" role="tab" aria-selected="false" aria-controls="form-cadastro">Cadastrar</button>
+                </div>
+
+                <form id="form-login" class="auth-form ativo" role="tabpanel" aria-labelledby="tab-login">
+                    <h2>Acesse sua conta</h2>
+                    <label>
+                        E-mail
+                        <input type="email" name="email" placeholder="seuemail@exemplo.com" required>
+                    </label>
+                    <label>
+                        Senha
+                        <input type="password" name="senha" placeholder="Sua senha" required>
+                    </label>
+                    <button type="submit" class="btn">Entrar</button>
+                    <p class="auth-ajuda">Ainda não tem conta? <a href="#" id="link-cadastro">Cadastre-se</a></p>
+                </form>
+
+                <form id="form-cadastro" class="auth-form" role="tabpanel" aria-labelledby="tab-cadastro">
+                    <h2>Crie sua conta</h2>
+                    <label>
+                        Nome completo
+                        <input type="text" name="nome" placeholder="Seu nome" required>
+                    </label>
+                    <label>
+                        E-mail
+                        <input type="email" name="email" placeholder="seuemail@exemplo.com" required>
+                    </label>
+                    <label>
+                        CPF
+                        <input type="text" name="cpf" placeholder="000.000.000-00" required>
+                    </label>
+                    <label>
+                        Senha
+                        <input type="password" name="senha" placeholder="Crie uma senha" required>
+                    </label>
+                    <label>
+                        Confirmar senha
+                        <input type="password" name="confirmar" placeholder="Repita a senha" required>
+                    </label>
+                    <button type="submit" class="btn">Cadastrar</button>
+                    <p class="auth-ajuda">Já tem conta? <a href="#" id="link-login">Entrar</a></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 VittaFlow | FIAP</p>
+    </footer>
+
+    <script src="./js/script.js"></script>
+    <script src="./js/login.js"></script>
+</body>
+
+</html>

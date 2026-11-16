@@ -332,6 +332,7 @@ main {
 
 .secao-problema {
   background-color: var(--cinza-claro);
+  padding-bottom: 32px;
 }
 
 .cards {
@@ -376,6 +377,8 @@ main {
 /* Como funciona */
 .secao-passos {
   background-color: var(--branco);
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .passos {
@@ -420,6 +423,7 @@ main {
 /* Público */
 .secao-publico {
   background-color: var(--cinza-claro);
+  padding-top: 32px;
 }
 
 .publico {
@@ -478,6 +482,13 @@ main {
 
 .selo i {
   font-size: 2rem;
+  color: var(--azul-tech);
+}
+
+.selo img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
 }
 
 /* LGPD */
@@ -599,6 +610,19 @@ button:focus-visible {
     padding: 48px 24px;
   }
 
+  .secao-problema {
+    padding-bottom: 24px;
+  }
+
+  .secao-passos {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  .secao-publico {
+    padding-top: 24px;
+  }
+
   .cards,
   .passos {
     grid-template-columns: 1fr;
@@ -664,9 +688,7 @@ button:focus-visible {
   }
 
   .ilustracao {
-    width: 100%;
-    max-width: 360px;
-    min-height: 240px;
+    display: none;
   }
 
   .funcionalidades {
@@ -681,6 +703,19 @@ button:focus-visible {
     flex-direction: column;
     text-align: center;
     padding: 24px 20px;
+  }
+
+  .secao-problema {
+    padding-bottom: 24px;
+  }
+
+  .secao-passos {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  .secao-publico {
+    padding-top: 24px;
   }
 
   .secao-lgpd {
