@@ -1,6 +1,6 @@
 # 💙 VittaFlow
 
-> Projeto desenvolvido no contexto acadêmico da FIAP, com foco em facilitar o acesso a consultas, exames e vacinas na rede pública de saúde.
+> Projeto desenvolvido para a Global Solution - FIAP, CitizenTech
 
 ---
 
@@ -80,6 +80,7 @@ VittaFlow/
 
 ## 👥 5. Autores e Créditos
 
+<div style="text-align: center">
 | Foto | Nome Completo | RM | Turma | Redes / Links |
 | --- | --- | --- | --- | --- |
 | <img src="assets/img/gustavo.png" width="80" alt="Gustavo Almeida"> | Gustavo Almeida | 576039 | 1TDSPR | [GitHub](https://github.com/goliveiraalmeida) / [LinkedIn](https://www.linkedin.com/in/goliveiraalmeida) |
@@ -87,6 +88,7 @@ VittaFlow/
 | <img src="assets/img/lucca.png" width="80" alt="Lucca Floriano"> | Lucca Floriano | 575494 | 1TDSPR | [GitHub](https://github.com/luccafloriano-7) / [LinkedIn](https://www.linkedin.com/in/lucca-floriano) |
 | <img src="assets/img/luiz.png" width="80" alt="Luiz Azevedo"> | Luiz Azevedo | 575245 | 1TDSPR | [GitHub](https://github.com/lazevedo2000-sudo) / [LinkedIn](https://www.linkedin.com/in/luiz-azevedo-890446235) |
 | <img src="assets/img/ryan.png" width="80" alt="Ryan Prandi"> | Ryan Prandi | 576358 | 1TDSPR | [GitHub](https://github.com/prandiryan) / [LinkedIn](https://www.linkedin.com/in/ryan-prandi) |
+</div>
 
 ---
 
