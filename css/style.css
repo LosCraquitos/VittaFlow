@@ -108,6 +108,10 @@ header ul {
   border-bottom-color: var(--azul-tech);
 }
 
+.menu-login {
+  display: none;
+}
+
 .botoes-direita {
   display: flex;
   align-items: center;
@@ -136,13 +140,11 @@ button,
   cursor: pointer;
   border: none;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
-  transition: background-color 0.2s, transform 0.2s;
 }
 
 button:hover,
 .btn:hover {
   background-color: var(--azul-hover);
-  transform: translateY(-1px);
 }
 
 .btn-secundario {
@@ -207,17 +209,6 @@ button:hover,
   transition: transform 0.3s, opacity 0.3s;
 }
 
-.btn-menu.aberto span:nth-child(1) {
-  transform: translateY(8px) rotate(45deg);
-}
-
-.btn-menu.aberto span:nth-child(2) {
-  opacity: 0;
-}
-
-.btn-menu.aberto span:nth-child(3) {
-  transform: translateY(-8px) rotate(-45deg);
-}
 
 /* Layout Principal (Main / Hero) */
 main {
@@ -265,7 +256,6 @@ main {
   min-height: 320px;
   background-color: var(--cinza-claro);
   border-radius: 16px;
-  flex-shrink: 0;
 }
 
 .img-hero {
@@ -660,6 +650,15 @@ button:focus-visible {
     display: flex;
     flex-direction: column;
     gap: 16px;
+  }
+
+  .menu-login {
+    display: block;
+    margin-top: 8px;
+  }
+
+  .menu-login .btn {
+    width: 100%;
   }
 
   .botoes-direita {
