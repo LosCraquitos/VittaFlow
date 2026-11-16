@@ -103,10 +103,8 @@ VittaFlow/
 - **Vacinas (`vacinas.html`)**: calendário de vacinação por faixa etária.
 - **Vagas (`vagas.html`)**: página destinada à busca/acompanhamento de vagas de atendimento.
 - **Login (`login.html`)**: acesso à conta e cadastro de novos usuários.
-- **FAQ (`faq.html`)** e **Contato (`contato.html`)**: suporte e informações complementares.
-
-### Identidade visual
-Os recursos visuais do projeto (logos, ícones e imagens) estão organizados nas pastas `assets/icons/` e `assets/img/`.
+- **FAQ (`faq.html`)**: perguntas frequentes e duvidas.
+**Contato (`contato.html`)**: suporte e informações complementares.
 
 ---
 
@@ -121,9 +119,8 @@ Acesse o código-fonte e o histórico de commits do projeto:
 ## ✉️ 8. Contato
 
 - **Repositório / Issues:** [Abrir uma issue no GitHub](https://github.com/LosCraquitos/VittaFlow/issues)
-- Para contato com os integrantes, utilize os links de GitHub e LinkedIn informados na seção [Autores e Créditos](#-5-autores-e-créditos).
+- Para contato com os integrantes, utilize os links de GitHub e LinkedIn informados na seção [Integrantes](#-5-integrantes).
 
 ---
 
 **VittaFlow**  
-*Projeto acadêmico desenvolvido na FIAP com foco em acesso à saúde, organização de atendimentos e cuidado preventivo.*
