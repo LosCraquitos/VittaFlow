@@ -104,7 +104,7 @@ VittaFlow/
 - **Vagas (`vagas.html`)**: página destinada à busca/acompanhamento de vagas de atendimento.
 - **Login (`login.html`)**: acesso à conta e cadastro de novos usuários.
 - **FAQ (`faq.html`)**: perguntas frequentes e duvidas.
-**Contato (`contato.html`)**: suporte e informações complementares.
+- **Contato (`contato.html`)**: suporte e informações complementares.
 
 ---
 
