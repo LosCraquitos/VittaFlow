@@ -10,7 +10,7 @@
 2. [Problema Abordado e Solução](#-2-problema-abordado-e-solução)
 3. [Tecnologias Utilizadas](#-3-tecnologias-utilizadas)
 4. [Estrutura de Pastas do Projeto](#-4-estrutura-de-pastas-do-projeto)
-5. [Autores e Créditos](#-5-autores-e-créditos)
+5. [Integrantes](#-5-integrantes)
 6. [Imagens e Páginas do Projeto](#-6-imagens-e-páginas-do-projeto)
 7. [Link do Repositório do GitHub](#-7-link-do-repositório-do-github)
 8. [Contato](#-8-contato)
@@ -78,16 +78,18 @@ VittaFlow/
 
 ---
 
-## 👥 5. Autores e Créditos
+## 👥 5. Integrantes
 
-<div style="text-align: center">
+<div align="center">
+
 | Foto | Nome Completo | RM | Turma | Redes / Links |
-| --- | --- | --- | --- | --- |
+| :---: | :---: | :---: | :---: | :---: |
 | <img src="assets/img/gustavo.png" width="80" alt="Gustavo Almeida"> | Gustavo Almeida | 576039 | 1TDSPR | [GitHub](https://github.com/goliveiraalmeida) / [LinkedIn](https://www.linkedin.com/in/goliveiraalmeida) |
 | <img src="assets/img/jonatas.png" width="80" alt="Jonatas Ferreira"> | Jonatas Ferreira | 576943 | 1TDSPR | [GitHub](https://github.com/jonatazf) / [LinkedIn](https://www.linkedin.com/in/jonatazf/) |
 | <img src="assets/img/lucca.png" width="80" alt="Lucca Floriano"> | Lucca Floriano | 575494 | 1TDSPR | [GitHub](https://github.com/luccafloriano-7) / [LinkedIn](https://www.linkedin.com/in/lucca-floriano) |
 | <img src="assets/img/luiz.png" width="80" alt="Luiz Azevedo"> | Luiz Azevedo | 575245 | 1TDSPR | [GitHub](https://github.com/lazevedo2000-sudo) / [LinkedIn](https://www.linkedin.com/in/luiz-azevedo-890446235) |
 | <img src="assets/img/ryan.png" width="80" alt="Ryan Prandi"> | Ryan Prandi | 576358 | 1TDSPR | [GitHub](https://github.com/prandiryan) / [LinkedIn](https://www.linkedin.com/in/ryan-prandi) |
+
 </div>
 
 ---
