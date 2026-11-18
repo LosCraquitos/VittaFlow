@@ -1,0 +1,112 @@
+/* Página FAQ: estilos específicos. A base (cores, botões, header) vem do style.css */
+
+/* Topo da página */
+.topo-pagina {
+  text-align: center;
+  padding: 56px 24px 8px;
+}
+
+.topo-pagina h1 {
+  font-size: 36px;
+  font-weight: 800;
+  color: var(--azul-saude);
+  margin-bottom: 10px;
+}
+
+.topo-pagina p {
+  max-width: 640px;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 1.6;
+  color: var(--texto-suave);
+}
+
+/* Lista de dúvidas */
+.faq-lista {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.faq-item {
+  background-color: var(--branco);
+  border: 1px solid var(--borda);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(11, 45, 107, 0.06);
+}
+
+.faq-item summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 18px 20px;
+  font-weight: 700;
+  color: var(--azul-saude);
+  cursor: pointer;
+  list-style: none;
+}
+
+.faq-item summary::-webkit-details-marker {
+  display: none;
+}
+
+/* Sinal de + que vira − quando a dúvida abre */
+.faq-item summary::after {
+  content: "+";
+  flex-shrink: 0;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1;
+  color: var(--azul-tech);
+}
+
+.faq-item[open] summary::after {
+  content: "−";
+}
+
+.faq-item p {
+  padding: 0 20px 18px;
+  line-height: 1.6;
+  color: var(--texto-suave);
+}
+
+/* Rodapé da lista */
+.faq-rodape {
+  max-width: 800px;
+  margin: 32px auto 0;
+  text-align: center;
+  font-size: 17px;
+  color: var(--texto-suave);
+}
+
+.faq-rodape a {
+  font-weight: 700;
+  color: var(--azul-tech);
+  border-bottom: 2px solid var(--azul-tech);
+}
+
+/* Celular */
+@media (max-width: 768px) {
+  .topo-pagina {
+    padding: 40px 24px 8px;
+  }
+
+  .topo-pagina h1 {
+    font-size: 28px;
+  }
+
+  .topo-pagina p {
+    font-size: 16px;
+  }
+
+  .faq-item summary {
+    padding: 16px;
+  }
+
+  .faq-item p {
+    padding: 0 16px 16px;
+  }
+}
