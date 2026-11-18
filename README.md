@@ -106,9 +106,9 @@ VittaFlow/
 ## 🎨 6. Imagens e Páginas do Projeto
 
 <div align="center">
-<p align ="left">Apresentação da solução, funcionalidades, funcionamento e chamada para ação.</p>
 
 ### Home (`index.html`)
+<p align ="left">Apresentação da solução, funcionalidades, funcionamento e chamada para ação.</p>
 
 ![Página inicial do VittaFlow](assets/img/prints/index.png)
 
