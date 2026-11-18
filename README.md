@@ -1,5 +1,9 @@
 # 💙 VittaFlow
 
+<div align="center">
+  <img src="assets/icons/logo.png" width="140" alt="Logo VittaFlow">
+</div>
+
 > Projeto desenvolvido para a Global Solution - FIAP, CitizenTech
 
 ---
@@ -57,12 +61,17 @@ VittaFlow/
 │   ├── icons/
 │   └── img/
 ├── css/
+│   ├── contato.css
+│   ├── faq.css
 │   ├── integrantes.css
 │   ├── login.css
+│   ├── sobre.css
 │   ├── style.css
 │   └── vacinas.css
 ├── js/
+│   ├── contato.js
 │   ├── login.js
+│   ├── sobre.js
 │   ├── script.js
 │   └── vacinas.js
 ├── contato.html
@@ -96,15 +105,85 @@ VittaFlow/
 
 ## 🎨 6. Imagens e Páginas do Projeto
 
-### Páginas principais
-- **Home (`index.html`)**: apresentação da solução, funcionalidades, funcionamento e chamada para ação.
-- **Sobre (`sobre.html`)**: descrição do projeto, problema abordado, objetivo, proposta da equipe e integrantes.
-- **Integrantes (`integrantes.html`)**: informações da equipe e links de contato profissional.
-- **Vacinas (`vacinas.html`)**: calendário de vacinação por faixa etária.
-- **Vagas (`vagas.html`)**: página destinada à busca/acompanhamento de vagas de atendimento.
-- **Login (`login.html`)**: acesso à conta e cadastro de novos usuários.
-- **FAQ (`faq.html`)**: perguntas frequentes e duvidas.
-- **Contato (`contato.html`)**: suporte e informações complementares.
+<div align="center">
+
+### Home (`index.html`)
+
+![Página inicial do VittaFlow](assets/img/prints/index.png)
+
+</div>
+
+Apresentação da solução, funcionalidades, funcionamento e chamada para ação.
+
+<div align="center">
+
+### Sobre (`sobre.html`)
+
+![Página Sobre do VittaFlow](assets/img/prints/sobre.png)
+
+</div>
+
+Descrição do projeto, problema abordado, objetivo, proposta da equipe e ODS.
+
+<div align="center">
+
+### Integrantes (`integrantes.html`)
+
+![Página Integrantes do VittaFlow](assets/img/prints/integrantes.png)
+
+</div>
+
+Informações da equipe e links de contato profissional.
+
+<div align="center">
+
+### Vacinas (`vacinas.html`)
+
+![Página Vacinas do VittaFlow](assets/img/prints/vacinas.png)
+
+</div>
+
+Calendário de vacinação por faixa etária.
+
+<div align="center">
+
+### Vagas (`vagas.html`)
+
+![Página Vagas do VittaFlow](assets/img/prints/vagas.png)
+
+</div>
+
+Página destinada à busca/acompanhamento de vagas de atendimento.
+
+<div align="center">
+
+### Login (`login.html`)
+
+![Página de login do VittaFlow](assets/img/prints/login.png)
+
+</div>
+
+Acesso à conta e cadastro de novos usuários.
+
+<div align="center">
+
+### FAQ (`faq.html`)
+
+![Página de perguntas frequentes do VittaFlow](assets/img/prints/faq.png)
+
+</div>
+
+Perguntas frequentes e dúvidas sobre a plataforma.
+
+<div align="center">
+
+### Contato (`contato.html`)
+
+![Página de contato do VittaFlow](assets/img/prints/contato.png)
+
+</div>
+
+Formulário de suporte e informações complementares.
 
 ---
 
