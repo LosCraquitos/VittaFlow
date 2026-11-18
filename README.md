@@ -1,9 +1,9 @@
-<div align="center"> 
-  # VittaFlow
-  <img src="assets/icons/logo.png" width="140" alt="Logo VittaFlow">
-</div
+<h1 align="center">VittaFlow</h1>
 
-<br>
+<div align="center">
+  <img src="assets/icons/logo.png" width="140" alt="Logo VittaFlow">
+</div>
+
 > Projeto desenvolvido para a Global Solution - FIAP, CitizenTech
 
 ---
