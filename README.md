@@ -118,72 +118,72 @@ VittaFlow/
 <div align="center">
 
 ### Sobre (`sobre.html`)
+<p align ="left">Descrição do projeto, problema abordado, objetivo, proposta da equipe e ODS.<p>
 
 ![Página Sobre do VittaFlow](assets/img/prints/sobre.png)
 
 </div>
 
-Descrição do projeto, problema abordado, objetivo, proposta da equipe e ODS.
 
 <div align="center">
 
 ### Integrantes (`integrantes.html`)
+<p align ="left">Informações da equipe e links de contato profissional.<p>
 
 ![Página Integrantes do VittaFlow](assets/img/prints/integrantes.png)
 
 </div>
 
-Informações da equipe e links de contato profissional.
 
 <div align="center">
 
 ### Vacinas (`vacinas.html`)
+<p align ="left">Calendário de vacinação por faixa etária.<p>
 
 ![Página Vacinas do VittaFlow](assets/img/prints/vacinas.png)
 
 </div>
 
-Calendário de vacinação por faixa etária.
 
 <div align="center">
 
 ### Vagas (`vagas.html`)
+<p align ="left">Página destinada à busca/acompanhamento de vagas de atendimento.<p>
 
 ![Página Vagas do VittaFlow](assets/img/prints/vagas.png)
 
 </div>
 
-Página destinada à busca/acompanhamento de vagas de atendimento.
 
 <div align="center">
 
 ### Login (`login.html`)
+<p align ="left">Acesso à conta e cadastro de novos usuários.<p>
 
 ![Página de login do VittaFlow](assets/img/prints/login.png)
 
 </div>
 
-Acesso à conta e cadastro de novos usuários.
 
 <div align="center">
 
 ### FAQ (`faq.html`)
+<p align ="left">Perguntas frequentes e dúvidas sobre a plataforma.<p>
 
 ![Página de perguntas frequentes do VittaFlow](assets/img/prints/faq.png)
 
 </div>
 
-Perguntas frequentes e dúvidas sobre a plataforma.
 
 <div align="center">
 
 ### Contato (`contato.html`)
+<p align ="left">Formulário de suporte e informações complementares.<p>
 
 ![Página de contato do VittaFlow](assets/img/prints/contato.png)
 
 </div>
 
-Formulário de suporte e informações complementares.
 
 ---
 
