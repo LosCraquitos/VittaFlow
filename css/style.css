@@ -17,7 +17,9 @@
   --borda: #dbe6f6;
 }
 
-
+html {
+  scrollbar-gutter: stable;
+}
 
 body {
   font-family: "Montserrat", sans-serif;

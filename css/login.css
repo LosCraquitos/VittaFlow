@@ -34,6 +34,10 @@
   box-shadow: none;
 }
 
+.auth-tab:hover{
+  color: white;
+}
+
 .auth-tab.ativo {
   background-color: var(--azul-tech);
   color: var(--branco);

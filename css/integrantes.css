@@ -61,15 +61,14 @@
 }
 
 .card-integrante .rm {
-  font-size: 14px;
-  color: var(--texto-suave);
-}
-
-.card-integrante .funcao {
   font-size: 15px;
   font-weight: 600;
-  color: var(--azul-tech);
   margin: 8px 0 14px;
+}
+
+.rm p {
+  color: var(--azul-tech);
+  
 }
 
 .redes {
