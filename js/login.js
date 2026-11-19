@@ -41,3 +41,66 @@ if (tabLogin && tabCadastro && formLogin && formCadastro) {
     });
   }
 }
+
+// Verificação do login (sem backend: apenas simulamos)
+if (formLogin) {
+  formLogin.noValidate = true;
+
+  formLogin.addEventListener("submit", function (e) {
+    e.preventDefault();
+
+    const email = formLogin.email.value.trim();
+    const senha = formLogin.senha.value;
+
+    if (!email || !senha) {
+      alert("Preencha todos os campos.");
+      return;
+    }
+
+    alert("Login realizado com sucesso!");
+    formLogin.reset();
+  });
+}
+
+// Verificação do cadastro
+if (formCadastro) {
+  formCadastro.noValidate = true;
+
+  formCadastro.addEventListener("submit", function (e) {
+    e.preventDefault();
+
+    const nome = formCadastro.nome.value.trim();
+    const email = formCadastro.email.value.trim();
+    const cpf = formCadastro.cpf.value.trim();
+    const senha = formCadastro.senha.value;
+    const confirmar = formCadastro.confirmar.value;
+
+    if (!nome || !email || !cpf || !senha || !confirmar) {
+      alert("Preencha todos os campos.");
+      return;
+    }
+
+    if (nome.length < 3) {
+      alert("Informe seu nome completo.");
+      return;
+    }
+
+    if (cpf.replace(/\D/g, "").length !== 11) {
+      alert("Informe um CPF válido.");
+      return;
+    }
+
+    if (senha.length < 6) {
+      alert("A senha deve ter pelo menos 6 caracteres.");
+      return;
+    }
+
+    if (senha !== confirmar) {
+      alert("As senhas não conferem.");
+      return;
+    }
+
+    alert("Conta criada com sucesso!");
+    formCadastro.reset();
+  });
+}
