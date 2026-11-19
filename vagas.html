@@ -4,13 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Conheça a equipe por trás do VittaFlow.">
+    <meta name="description" content="Busque vagas de consultas, exames e vacinas nas UBS e entre na fila de espera pelo VittaFlow.">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/integrantes.css">
+    <link rel="stylesheet" href="./css/vagas.css">
     <link rel="icon" type="image/x-icon" href="assets/icons/logo.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <title>Integrantes | VittaFlow</title>
+    <title>Vagas | VittaFlow</title>
 </head>
 
 <body>
@@ -45,6 +46,80 @@
     </header>
 
     <main>
+        <!-- Busca de vagas -->
+        <section class="vagas-secao" id="buscar" aria-labelledby="titulo-buscar">
+            <h1 id="titulo-buscar">Buscar vagas</h1>
+            <p class="vagas-sub">Veja as vagas de consultas, exames e vacinas nas UBS, quantas pessoas estão na fila
+                e quanto tempo você deve esperar.</p>
+
+            <div class="vagas-filtros">
+                <div class="vagas-abas" role="tablist" aria-label="Filtrar por tipo de atendimento">
+                    <button type="button" class="filtro ativo" data-tipo="todas" role="tab" aria-selected="true" aria-controls="lista-vagas">Todas</button>
+                    <button type="button" class="filtro" data-tipo="Consulta" role="tab" aria-selected="false" aria-controls="lista-vagas">Consultas</button>
+                    <button type="button" class="filtro" data-tipo="Exame" role="tab" aria-selected="false" aria-controls="lista-vagas">Exames</button>
+                    <button type="button" class="filtro" data-tipo="Vacina" role="tab" aria-selected="false" aria-controls="lista-vagas">Vacinas</button>
+                </div>
+
+                <label for="busca">Buscar
+                    <input type="text" id="busca" placeholder="Ex.: Cardiologia, Hemograma, Gripe" aria-controls="lista-vagas">
+                </label>
+            </div>
+
+            <p class="vagas-contagem" id="contagem" aria-live="polite"></p>
+
+            <!-- Os cards são criados no vagas.js -->
+            <ul class="vagas-lista" id="lista-vagas" role="tabpanel" aria-labelledby="titulo-buscar"></ul>
+        </section>
+
+        <!-- Formulário para entrar na fila -->
+        <section class="vagas-secao vagas-fila oculto" id="fila" aria-labelledby="titulo-fila">
+            <h2 id="titulo-fila">Entrar na fila</h2>
+            <p class="vagas-sub" id="resumo-vaga"></p>
+
+            <form class="form-fila" id="form-fila">
+                <label for="nome" class="campo campo-nome">Nome completo<span aria-hidden="true">*</span>
+                    <input type="text" id="nome" aria-describedby="erro-nome">
+                    <small class="erro" id="erro-nome"></small>
+                </label>
+
+                <label for="cpf" class="campo">CPF<span aria-hidden="true">*</span>
+                    <input type="text" id="cpf" placeholder="000.000.000-00" maxlength="14" aria-describedby="erro-cpf">
+                    <small class="erro" id="erro-cpf"></small>
+                </label>
+
+                <label for="idade" class="campo">Idade<span aria-hidden="true">*</span>
+                    <input type="text" id="idade" maxlength="3" aria-describedby="erro-idade">
+                    <small class="erro" id="erro-idade"></small>
+                </label>
+
+                <fieldset aria-describedby="dica-prioridade">
+                    <legend>Atendimento prioritário</legend>
+                    <label class="vagas-check" for="gestante"><input type="checkbox" id="gestante"> Sou gestante</label>
+                    <label class="vagas-check" for="pcd"><input type="checkbox" id="pcd"> Sou pessoa com deficiência</label>
+                    <p class="dica" id="dica-prioridade">Pessoas com 60 anos ou mais também têm prioridade.</p>
+                </fieldset>
+
+                <div class="grupo-botoes">
+                    <button type="submit">Confirmar</button>
+                    <button type="button" class="btn-secundario" id="btn-cancelar">Cancelar</button>
+                </div>
+            </form>
+
+            <!-- Comprovante preenchido feito no vagas.js -->
+            <div class="comprovante oculto" id="comprovante" aria-live="polite">
+                <h3>Você entrou na fila!</h3>
+                <p class="protocolo">Protocolo <strong id="c-protocolo"></strong></p>
+                <p class="selo-prioridade oculto" id="c-prioridade">Atendimento prioritário</p>
+                <ul class="comprovante-dados">
+                    <li><span>Paciente</span> <strong id="c-nome"></strong></li>
+                    <li><span>Atendimento</span> <strong id="c-atendimento"></strong></li>
+                    <li><span>Unidade</span> <strong id="c-unidade"></strong></li>
+                    <li><span>Pessoas na sua frente</span> <strong id="c-frente"></strong></li>
+                    <li><span>Tempo estimado</span> <strong id="c-tempo"></strong></li>
+                </ul>
+                <p class="lembrete oculto" id="c-lembrete"></p>
+            </div>
+        </section>
     </main>
 
     <footer>
@@ -52,6 +127,7 @@
     </footer>
 
     <script src="./js/script.js"></script>
+    <script src="./js/vagas.js"></script>
 </body>
 
 </html>
