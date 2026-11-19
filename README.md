@@ -67,21 +67,24 @@ VittaFlow/
 │   ├── login.css
 │   ├── sobre.css
 │   ├── style.css
-│   └── vacinas.css
+│   ├── vacinas.css
+│   └── vagas.css
 ├── js/
 │   ├── contato.js
 │   ├── login.js
 │   ├── sobre.js
 │   ├── script.js
-│   └── vacinas.js
-├── contato.html
-├── faq.html
+│   ├── vacinas.js
+│   └── vagas.js
+├── paginas/
+│   ├── contato.html
+│   ├── faq.html
+│   ├── integrantes.html
+│   ├── login.html
+│   ├── sobre.html
+│   ├── vacinas.html
+│   └── vagas.html
 ├── index.html
-├── integrantes.html
-├── login.html
-├── sobre.html
-├── vacinas.html
-├── vagas.html
 └── README.md
 ```
 
@@ -108,7 +111,7 @@ VittaFlow/
 <div align="center">
 
 ### Home (`index.html`)
-<p align ="left">Apresentação da solução, funcionalidades, funcionamento e chamada para ação.</p>
+<p align="left">Apresentação da solução, funcionalidades, funcionamento e chamada para ação.</p>
 
 ![Página inicial do VittaFlow](assets/img/prints/index.png)
 
@@ -117,8 +120,8 @@ VittaFlow/
 
 <div align="center">
 
-### Sobre (`sobre.html`)
-<p align ="left">Descrição do projeto, problema abordado, objetivo, proposta da equipe e ODS.<p>
+### Sobre (`paginas/sobre.html`)
+<p align="left">Descrição do projeto, problema abordado, objetivo, proposta da equipe e ODS.</p>
 
 ![Página Sobre do VittaFlow](assets/img/prints/sobre.png)
 
@@ -127,8 +130,8 @@ VittaFlow/
 
 <div align="center">
 
-### Integrantes (`integrantes.html`)
-<p align ="left">Informações da equipe e links de contato profissional.<p>
+### Integrantes (`paginas/integrantes.html`)
+<p align="left">Informações da equipe e links de contato profissional.</p>
 
 ![Página Integrantes do VittaFlow](assets/img/prints/integrantes.png)
 
@@ -137,8 +140,8 @@ VittaFlow/
 
 <div align="center">
 
-### Vacinas (`vacinas.html`)
-<p align ="left">Calendário de vacinação por faixa etária.<p>
+### Vacinas (`paginas/vacinas.html`)
+<p align="left">Calendário de vacinação por faixa etária.</p>
 
 ![Página Vacinas do VittaFlow](assets/img/prints/vacinas.png)
 
@@ -147,8 +150,8 @@ VittaFlow/
 
 <div align="center">
 
-### Vagas (`vagas.html`)
-<p align ="left">Página destinada à busca/acompanhamento de vagas de atendimento.<p>
+### Vagas (`paginas/vagas.html`)
+<p align="left">Página destinada à busca/acompanhamento de vagas de atendimento.</p>
 
 ![Página Vagas do VittaFlow](assets/img/prints/vagas.png)
 
@@ -157,8 +160,8 @@ VittaFlow/
 
 <div align="center">
 
-### Login (`login.html`)
-<p align ="left">Acesso à conta e cadastro de novos usuários.<p>
+### Login (`paginas/login.html`)
+<p align="left">Acesso à conta e cadastro de novos usuários.</p>
 
 ![Página de login do VittaFlow](assets/img/prints/login.png)
 
@@ -167,8 +170,8 @@ VittaFlow/
 
 <div align="center">
 
-### FAQ (`faq.html`)
-<p align ="left">Perguntas frequentes e dúvidas sobre a plataforma.<p>
+### FAQ (`paginas/faq.html`)
+<p align="left">Perguntas frequentes e dúvidas sobre a plataforma.</p>
 
 ![Página de perguntas frequentes do VittaFlow](assets/img/prints/faq.png)
 
@@ -177,8 +180,8 @@ VittaFlow/
 
 <div align="center">
 
-### Contato (`contato.html`)
-<p align ="left">Formulário de suporte e informações complementares.<p>
+### Contato (`paginas/contato.html`)
+<p align="left">Formulário de suporte e informações complementares.</p>
 
 ![Página de contato do VittaFlow](assets/img/prints/contato.png)
 
