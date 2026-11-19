@@ -1,0 +1,353 @@
+/* Seções */
+.vagas-secao {
+  max-width: 1120px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 48px 24px;
+}
+
+/* Título principal da página */
+.vagas-secao h1 {
+  font-size: 30px;
+  font-weight: 800;
+  color: var(--azul-saude);
+}
+
+.vagas-sub {
+  color: var(--texto-suave);
+  margin: 6px 0 24px;
+}
+
+/* Filtros */
+.vagas-filtros {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 16px;
+  padding: 20px;
+  background-color: var(--cinza-claro);
+  border: 1px solid var(--borda);
+  border-radius: 16px;
+}
+
+.vagas-abas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.filtro {
+  min-width: auto;
+  height: 40px;
+  padding: 0 18px;
+  border-radius: 999px;
+  border: 1px solid var(--borda);
+  background-color: var(--branco);
+  color: var(--azul-saude);
+  box-shadow: none;
+}
+
+.filtro:hover {
+  background-color: var(--cinza-claro);
+}
+
+.filtro.ativo {
+  background-color: var(--azul-tech);
+  color: var(--branco);
+}
+
+.vagas-filtros label,
+.form-fila label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--azul-saude);
+}
+
+.vagas-filtros label {
+  width: 320px;
+}
+
+.vagas-filtros input,
+.form-fila input[type="text"] {
+  height: 44px;
+  padding: 0 12px;
+  border: 1px solid var(--borda);
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: 15px;
+}
+
+.vagas-contagem {
+  margin: 16px 0;
+  font-weight: 600;
+  color: var(--texto-suave);
+}
+
+/* Cards */
+/* 3 cards por linha */
+.vagas-lista {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px 2%;
+}
+
+.vaga-card {
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 22px 20px;
+  background-color: var(--branco);
+  border: 1px solid var(--borda);
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(11, 45, 107, 0.06);
+}
+
+.vaga-card h3 {
+  font-size: 19px;
+  color: var(--azul-saude);
+}
+
+.vaga-unidade {
+  font-weight: 700;
+}
+
+.vaga-data {
+  font-size: 14px;
+  color: var(--texto-suave);
+}
+
+.vaga-fila {
+  margin-top: auto;
+  padding: 10px 12px;
+  background-color: var(--cinza-claro);
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--azul-saude);
+}
+
+.vaga-card button {
+  width: 100%;
+}
+
+.vagas-vazio {
+  width: 100%;
+  padding: 32px;
+  text-align: center;
+  color: var(--texto-suave);
+  background-color: var(--cinza-claro);
+  border-radius: 16px;
+}
+
+/* Etiquetas */
+.badge {
+  align-self: flex-start;
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.badge-consulta {
+  background-color: #e3efff;
+  color: var(--azul-tech);
+}
+
+.badge-exame {
+  background-color: var(--card);
+  color: #8a5a00;
+}
+
+.badge-vacina {
+  background-color: #dcfce7;
+  color: #15803d;
+}
+
+.tag {
+  align-self: flex-start;
+  padding: 2px 10px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.tag-alerta {
+  background-color: #fee2e2;
+  color: #b91c1c;
+}
+
+.tag-ok {
+  background-color: #dcfce7;
+  color: #15803d;
+}
+
+/* Formulário da fila */
+.vagas-fila {
+  background-color: var(--cinza-claro);
+  border-radius: 24px;
+  margin-bottom: 48px;
+  scroll-margin-top: 80px;
+}
+
+#resumo-vaga {
+  font-weight: 600;
+  color: var(--azul-saude);
+}
+
+/* Nome ocupa metade da linha; CPF e Idade dividem o resto */
+.form-fila {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px 2%;
+}
+
+.form-fila .campo {
+  display: block;
+  width: 23.5%;
+}
+
+/* Campo e mensagem de erro ficam embaixo do texto do label */
+.form-fila .campo input,
+.form-fila .campo .erro {
+  display: block;
+  width: 100%;
+  margin-top: 6px;
+}
+
+.form-fila .campo-nome {
+  width: 49%;
+}
+
+.form-fila fieldset {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 24px;
+  padding: 12px 20px;
+  border: 1px solid var(--borda);
+  border-radius: 12px;
+  background-color: var(--branco);
+}
+
+.form-fila legend {
+  font-weight: 700;
+  color: var(--azul-saude);
+}
+
+.form-fila .vagas-check {
+  flex-direction: row;
+  align-items: center;
+  color: var(--texto);
+}
+
+.form-fila .grupo-botoes {
+  width: 100%;
+}
+
+.erro {
+  min-height: 16px;
+  font-size: 13px;
+  color: #b91c1c;
+}
+
+.dica {
+  width: 100%;
+  font-size: 13px;
+  color: var(--texto-suave);
+}
+
+/* Comprovante */
+.comprovante {
+  max-width: 520px;
+  padding: 28px;
+  background-color: var(--branco);
+  border: 2px solid var(--verde-vida);
+  border-radius: 16px;
+}
+
+.comprovante h3 {
+  font-size: 22px;
+  color: var(--azul-saude);
+}
+
+.protocolo {
+  margin: 8px 0;
+  font-size: 18px;
+}
+
+.protocolo strong {
+  color: var(--azul-tech);
+}
+
+.selo-prioridade {
+  display: inline-block;
+  margin-bottom: 8px;
+  padding: 4px 12px;
+  border-radius: 999px;
+  background-color: var(--card);
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--azul-saude);
+}
+
+.comprovante-dados {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.comprovante-dados li {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 8px;
+  border-bottom: 1px dashed var(--borda);
+}
+
+.comprovante-dados span {
+  color: var(--texto-suave);
+}
+
+.lembrete {
+  margin-top: 16px;
+  padding: 12px;
+  border-radius: 10px;
+  background-color: #fff7e0;
+  font-size: 14px;
+}
+
+/* Esconde elementos (usada pelo JS) */
+.oculto {
+  display: none;
+}
+
+/* Tablet */
+@media (max-width: 992px) {
+  /* 2 cards por linha */
+  .vaga-card {
+    width: 49%;
+  }
+}
+
+/* Celular */
+@media (max-width: 768px) {
+  /* 1 card por linha e campos um embaixo do outro */
+  .vaga-card,
+  .form-fila .campo,
+  .form-fila .campo-nome {
+    width: 100%;
+  }
+
+  .vagas-secao h1 {
+    font-size: 24px;
+  }
+
+  .vagas-filtros label {
+    width: 100%;
+  }
+}
