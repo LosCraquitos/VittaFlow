@@ -18,6 +18,7 @@
 6. [Imagens e Páginas do Projeto](#-6-imagens-e-páginas-do-projeto)
 7. [Link do Repositório do GitHub](#-7-link-do-repositório-do-github)
 8. [Contato](#-8-contato)
+9. [Vídeo](#-9-video)
 
 ---
 
@@ -205,7 +206,7 @@ Acesse o código-fonte e o histórico de commits do projeto:
 
 ---
 
-## 📷. Vídeo
+## 📷 9. Vídeo
 [![Video](https://img.youtube.com/vi/4yqnx8MDYI0/0.jpg)](https://www.youtube.com/watch?v=4yqnx8MDYI0)
 
 **VittaFlow**  
