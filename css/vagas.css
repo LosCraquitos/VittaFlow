@@ -1,5 +1,3 @@
-/* Página de Vagas */
-
 /* Seções */
 .vagas-secao {
   max-width: 1120px;
@@ -8,7 +6,7 @@
   padding: 48px 24px;
 }
 
-/* Título principal da página, no mesmo tamanho dos h2 do site */
+/* Título principal da página */
 .vagas-secao h1 {
   font-size: 30px;
   font-weight: 800;
@@ -90,7 +88,7 @@
 }
 
 /* Cards */
-/* 3 cards por linha: 32% + 32% + 32% + 2 espaços de 2% = 100% */
+/* 3 cards por linha */
 .vagas-lista {
   display: flex;
   flex-wrap: wrap;

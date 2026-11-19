@@ -33,7 +33,7 @@ const inputPcd = document.querySelector("#pcd")
 let tipoEscolhido = "todas" // filtro que está ativo
 let vagaEscolhida = null    // vaga que a pessoa clicou
 
-// ===== Tempo de espera (mesma ideia do calcularTempoEspera() =====
+// ===== Tempo de espera (mesma ideia do calcularTempoEspera) =====
 const calcularTempoEspera = (pessoas, tempoMedio) => pessoas * tempoMedio
 
 const formatarTempo = (minutos) => {
